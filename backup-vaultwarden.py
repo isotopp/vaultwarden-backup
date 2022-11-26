@@ -87,5 +87,5 @@ class Backup:
         self.cleanup_staging()
 
 
-b = Backup(debug=True)
+b = Backup()
 b.backup()
